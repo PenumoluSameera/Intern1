@@ -1,0 +1,56 @@
+/* GLOBAL */
+body {
+  font-family: "Segoe UI", sans-serif;
+  background-color: #f9fafc;
+}
+
+/* NAVBAR */
+.navbar {
+  background-color: #2563eb;
+}
+
+.nav-link {
+  color: #e5e7eb !important;
+  font-weight: 500;
+}
+
+.nav-link.active,
+.nav-link:hover {
+  color: #facc15 !important;
+}
+
+/* HERO */
+.hero-section {
+  background-color: #eff6ff;
+}
+
+.hero-img {
+  max-width: 100%;
+}
+
+/* CONTACT FORM */
+.contact-form {
+  background: #fff;
+  padding: 30px;
+  border-radius: 14px;
+  box-shadow: 0 12px 30px rgba(0,0,0,0.12);
+}
+
+/* FOOTER */
+footer {
+  background-color: #1e3a8a;
+  color: white;
+}
+
+/* RESPONSIVE */
+@media (max-width: 768px) {
+  .hero-section h1 {
+    font-size: 2rem;
+  }
+}
+
+@media (max-width: 576px) {
+  .contact-form {
+    padding: 20px;
+  }
+}
